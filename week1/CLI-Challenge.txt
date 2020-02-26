@@ -1,0 +1,9 @@
+1- To ceate hidden folder or file, commit dot ( . ) :
+    - hidden folder: mkdir . FolderNme
+    - hidden file: touch . FileName
+    - display hidden folder and in CLI :  ls -a 
+
+2 - To create multiple nested dirctories: mkdir -p Parents/child/andotherChild/oneMoreChild 
+
+
+3- To append message to a file without newline: Echo "A B C " >> fileName
