@@ -42,7 +42,7 @@ a {
 span {
   font-size: 7px;
 }
-/* gobale  */
+/* global  */
 #header {
   display: flex;
   align-items: center;
@@ -63,6 +63,7 @@ span {
 }
 .info p {
   margin-bottom: 50px;
+  padding-right: 100px;
 }
 .myphoto {
   flex: 1 1 50%;
