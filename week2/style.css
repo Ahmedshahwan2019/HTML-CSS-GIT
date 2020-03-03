@@ -13,6 +13,10 @@ header {
   background: #a3f7bf;
   height: 60px;
 }
+main{
+  width: 80%;
+  margin: auto;
+}
 
 h1 {
   padding: 10px 20px;
@@ -33,6 +37,7 @@ h3 {
 }
 p{
   font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
 }
 /* floats section */
 #grid-floats {
