@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #ccc 1px, transparent 1px);
+  background-size: calc(100% / 6);
+}
+ul{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+a:hover{
+  text-decoration: underline;
+}
+/* branding and show menu btn  */
+.top-bar-nav{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-transform: capitalize;
+  padding: 4rem 1rem;
+}
+/* customize the divs inside the to bar to have thrid the width */
+.top-bar-nav > div{
+/*   width: 33.3%; */
+  width: calc(100%/3);
+}
+
+.branding{
+  font-size: .8rem;
+}
+
+.nav-tittle{
+  font-family: sans-serif;
+  font-size: .7em;
+  text-transform: capitalize;
+}
+.menu-container{
+  display: flex;
+  justify-content:flex-start;
+  align-items: baseline;
+  padding-left: 1rem;
+  font-size: .8rem;
+  line-height: 1.5;
+  text-transform: capitalize;
+  max-height: 37.5rem;
+  overflow: hidden;
+}
+.menu-container >div{
+/*   width: 16.6%; */
+  width: calc(100%/6);
+  padding-left: .2rem;
+}
+.menu-container .tag-list{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-height: 30rem;
+}
+.tag-list li{
+  width: 100%;
+}
+#hide-menu{
+  transition: 2s ease-in-out;
+}
+
+.showcase{
+  display: flex;
+  align-items: baseline;
+  padding: 1.5rem;
+}
+.showcase-title{
+  width: 30%;
+  font-weight: 100;
+}
+.showcase-content{
+  width: 50%;
+  text-align: justify;
+  line-height: 1.2;
+}
+
+
+
+
+
+
+
+
+
+
+
