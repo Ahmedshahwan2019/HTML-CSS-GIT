@@ -292,6 +292,22 @@ padding-top: 0
     justify-content: space-between;
     width: 100%;
   }
+    .tag-colm ,.fliter-tag-colm{
+    display: none;
+  }
+  .nav-tittle{
+   display: none; 
+  }
+  .menu-list{
+    line-height: 2;
+  }
+  .menu-list li a{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100vw;
+    border-bottom: solid #999 thin;
+  }
   .showcase{
     flex-direction: column;
   }
