@@ -1,10 +1,17 @@
+
+/* imported font from google */
+
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Bellota+Text&display=swap');
+
+/* removing all the paddings and margins from all the elements */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+/* added lines background using linear gradients and added some global style for elements */
 body {
   background: linear-gradient(90deg, #ccc, transparent 1px);
   background-size: calc(100% / 6);
@@ -27,7 +34,9 @@ h4{
   font-weight: normal;
   padding-bottom:  .8em;
 }
+
 /* branding and show menu btn  */
+
 .top-bar-nav {
   display: flex;
   justify-content: flex-start;
@@ -35,7 +44,9 @@ h4{
   text-transform: capitalize;
   padding: 4rem 1rem;
 }
+
 /* customize the divs inside the to bar to have thrid the width */
+
 .top-bar-nav > div {
   /*   width: 33.3%; */
   width: calc(100% / 3);
@@ -51,6 +62,11 @@ h4{
   text-transform: capitalize;
   padding-bottom: 1rem;
 }
+.hamburger{
+ display: none;
+}
+
+
 .menu-container {
   font-family: 'Bellota Text', cursive;
   display: flex;
@@ -80,7 +96,7 @@ h4{
   transition: 2s ease-in-out;
   display: none;
 }
-
+/* ---------------showcase----------- */
 .showcase {
   display: flex;
   align-items: baseline;
@@ -106,6 +122,7 @@ h4{
   display: block;
   clear: both;
 }
+/* --------------------main content-------------- */
 .main-content {
   display: flex;
   flex-flow: column wrap;
@@ -152,6 +169,7 @@ i {
   font-family: 'Bellota Text', cursive;
 }
 
+/*------------------------ latest post section------------------------- */
 .latest-post-clom {
   font-family: 'Bellota Text', cursive;
   font-size: 0.6em;
@@ -196,6 +214,7 @@ i {
 .tab-latest-post li a{
   display: block;
 }
+/*---------------footer----------------------  */
 footer{
   display: flex;
   justify-content: flex-end;
@@ -274,7 +293,20 @@ footer{
     width: 100%;
   }
   .footer-container div h4{
-padding-top: 0
+padding-top: 0;
+  }
+  .top-bar-nav{
+    justify-content: space-between;
+  }
+  .top-bar-nav div:last-child{
+    text-align: right;
+/*     width: 100%; */
+  }
+  .show-btn a:first-child{
+    display: none;
+  }
+  .hamburger{
+    display: inline-block;
   }
   
 }
@@ -337,10 +369,22 @@ padding-top: 0
     width: 100%;
   }
   .footer-container div h4{
-padding-top: 0
+padding-top: 0;
   }
   
-
+  .top-bar-nav{
+    justify-content: space-between;
+  }
+  .top-bar-nav div:last-child{
+    text-align: right;
+/*     width: 100%; */
+  }
+  .show-btn a:first-child{
+    display: none;
+  }
+  .hamburger{
+    display: inline-block;
+  }
 }
 
 
