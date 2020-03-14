@@ -117,7 +117,7 @@ h4{
 }
 .card-container {
   width: calc(100% / 3);
-  margin: 1px;
+  margin: 5px;
   position: relative;
 }
 img {
@@ -219,6 +219,10 @@ footer{
 
 }
 
+/* Media quaries */
+
+/*  media qu ta for tablet  */
+
 @media (min-width: 481px) and (max-width: 767px) {
   body{
     background: #fff;
@@ -277,7 +281,51 @@ padding-top: 0
 
 
 
+@media (min-width: 320px) and (max-width: 480px) {
+  body{
+    background: #fff;
+  }
+  .branding h1{
+    font-size: .8rem;
+  }
+  .top-bar-nav{
+    justify-content: space-between;
+    width: 100%;
+  }
+  .showcase{
+    flex-direction: column;
+  }
+  .showcase div{
+    width: 100%;
+    padding-top: 10%;
+  }
+  .card-container{
+    width: 100%;
+  }
+  
+   .latest-post-clom{
+    display: none;
+  }
+  .tablet-colm{
+    visibility: visible;
+    margin-bottom: 6em;
+  }
+  .footer-container{
+    width: 100%;
+    flex-direction: column;
+    font-size: .9em;
+    line-height: 1;
+  }
+  .footer-container > div{
+    display: block;
+    width: 100%;
+  }
+  .footer-container div h4{
+padding-top: 0
+  }
+  
 
+}
 
 
 
